@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <link href='stylesheet.css' rel='stylesheet'>
+        <script src='jscript.js'></script>
+
         <title>Welcome</title>
     </head>
     <body>
@@ -11,14 +15,13 @@
             <li></li>
         </ul>
     
-        <form action="#" id="test" method="POST"> 
-            <input name="data" type="text" placeholder="Enter Name"/>
+        <form id="test" onsubmit='addToWallList()'> 
+            <input value='' type='text' placeholder='Enter Name'>
              
-            
-        <input id="test" type="submit" onclick="addToWallList(list)" onsubmit="addtoList()"></button>
+            <button type='submit'>Submit Name</button>
+        
         </form>
-        <link href="stylesheet.css" rel="stylesheet">
-        <script src="jscript.js"></script>
+       
         </body>
 
 </html>
