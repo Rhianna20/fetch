@@ -25,4 +25,5 @@ method: "POST",
 
 function addtoList(){
     let item = document.getElementById('submitName')
+    submitName.push(addToWallList())
 }
