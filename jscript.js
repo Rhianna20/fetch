@@ -13,17 +13,10 @@ function addToWallList(list){
     })
 
 } 
-fetch('https://2ubiyjczwh.execute-api.eu-west-2.amazonaws.com/wall' , {
-   
-method: "POST",
-    body: JSON.stringify({
-        message: "Test It"
-    })
-}).then(response => console.log(response. status))
-
 
 
 function addtoList(){
-    let item = document.getElementById('submitName')
-    submitName.push(addToWallList())
+    let newItem = document.getElementById('test')
+    list.push(addToWallList())
+    console.log(newItem)
 }
