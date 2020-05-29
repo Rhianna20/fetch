@@ -9,16 +9,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet"> 
     
         <title>Welcome</title>
+
     </head>
     <body>
-
         <h1>Make you mark!</h1>
         <!---Form & Button-->
-        
-        <form id="test" onsubmit='addtoList()'> 
-            <input value='' type='text' placeholder='Enter Name'>
+        <form id="submitIt" onsubmit='addWallList()'> 
+            <input value='' type='text' placeholder='Enter Name' id="mark">
              
-            <input type="submit" value="Make Your Mark" onclick="addtoList()">
+            <button type="submit" name="submit">Mark It</button>
         
         </form>
        

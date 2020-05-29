@@ -12,7 +12,16 @@ function addToWallList(list){
     })
 
 } 
+const submitIt = document.getElementById('submitIt')
+submitIt.onsubmit()
+function addToList(){
+   document.getElementById('submitIt').onsubmit()
+}
 
 
-
-
+fetch('https://2ubiyjczwh.execute-api.eu-west-2.amazonaws.com/wall' , {
+    method: "POST",
+    body: JSON.stringify({
+    data: submitIt
+      })
+    }).then(response => console.log(response.status))
