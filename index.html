@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+       <!--lINKS-->
         <link href='stylesheet.css' rel='stylesheet'>
         <script src='jscript.js'></script>
-
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <!---Google Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet"> 
+    
         <title>Welcome</title>
     </head>
     <body>
-        <h1>Insert name into form!</h1>
-        <ul id="list">
-            <li>Rhianna</li>
-            <li>Empress</li>
-            <li></li>
-        </ul>
-    
+
+        <h1>Make you mark!</h1>
+        <!---Form & Button-->
+        
         <form id="test" onsubmit='addtoList()'> 
             <input value='' type='text' placeholder='Enter Name'>
              
-            <button type='submit'>Submit Name</button>
+            <input type="submit" value="Make Your Mark" onclick="addtoList()">
         
         </form>
        
+
+
+
+
+      
+        <ul id="list">
+            <li>Rhianna</li>
+        </ul>
+    
+        
         </body>
 
 </html>

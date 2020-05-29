@@ -1,0 +1,60 @@
+h1 {
+    color: rgb(68, 101, 212);
+    text-shadow: yellow 3px;
+    background-image: ('https://www.freepik.com/free-photos-vectors/background');
+
+    font-size: 30px;
+    border: black;
+    border-width: 1px;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+li{
+    color:red;
+    display: flex;
+    background-color: rgb(231, 102, 102);
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: black 2px;
+    
+}
+
+button{
+    color: white;
+    background-color: black;
+    
+    
+}
+
+body{
+    background-color: white;
+    margin: 2px;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    position: relative;
+    width: 450px;
+    margin: 100px auto 0;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+ul li {
+    display: flex;
+    background-color:black;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+updatedList element{
+    color: red;
+    background-color: white;
+    position: initial;
+    display: grid;
+}
+

@@ -13,17 +13,6 @@ function addToWallList(list){
 
 } 
 
-function addtoList(){
-    let newItem = document.getElementById('test')
-    list.push(addToWallList())
-    console.log(newItem)
-}
-const ul = document.querySelector(lists)
-const url = 'https://2ubiyjczwh.execute-api.eu-west-2.amazonaws.com/wall'
-
-
-
-
 
 
 
